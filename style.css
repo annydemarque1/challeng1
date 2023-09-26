@@ -5,31 +5,36 @@ body {
   background: linear-gradient(120deg, #011a2a, hsl(249, 93%, 12%));
   height: 100vh;
   overflow: hidden;
+  height: 100%;
+  width: 100%;
 }
 .center {
+  width: 380px;
+  height: 480px;
   position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 400px;
-  height: 450px;
-  background: rgb(2, 2, 45);
-  border-radius: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin: 6% auto;
+  background: rgb(17, 17, 72);
+  padding: 5px;
 }
-.center h1 {
-  text-align: center;
-  padding: 0 0 20px 0;
-  border-bottom: 1px solid rgb(243, 237, 237);
+.box {
+  width: 220px;
+  margin: 35px auto;
+  position: relative;
+  border-radius: 30px;
 }
-.center p {
-  padding: 0 40px;
-  box-sizing: border-box;
-  width: 20;
-  color: grey;
+.box cent {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
-.center h1 {
-  width: 20;
+.box h5 {
+  color: rgb(237, 237, 242);
+  font-family: "Times New Roman", Times, serif;
+}
+.box p {
+  color: rgb(146, 146, 201);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.box h6 {
+  color: aqua;
 }
